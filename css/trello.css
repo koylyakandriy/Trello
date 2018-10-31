@@ -17,6 +17,11 @@ input{
 }
 
 /* END BASE */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .app-name{
     font-family: 'Yesteryear', cursive;
@@ -29,10 +34,10 @@ input{
 }
 
 .list{
-    width: calc(100% / 4);
     background-color: #e3e3e3;
     border-radius: 4px;
     padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #999;
     vertical-align: top;
     position: relative;
